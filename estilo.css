@@ -1,0 +1,115 @@
+@font-face{
+	font-family: 'fuente';
+	src: url(fuentes/DancingScript-Medium.ttf);
+}
+@font-face{
+font-family: 'fuente2';
+src:url(fuentes/PermanentMarker-Regular.ttf);
+}
+#principal{
+	width: 1000px;
+	text-align: center;
+	margin: 15px auto;
+	background: #93cdd23d;
+	padding: 10px;
+	border: 3px solid #80809f;
+	border-radius: 8px;
+	box-shadow: #999 5px 5px 5px;
+}
+#titulo{
+	font:bold 80px 'fuente';
+	color: blue;
+	text-shadow: #020339 3px 3px 5px;
+}
+ul {
+  margin: 10px auto;
+  padding: 10px 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 8px;
+  }
+li {
+  float: left;
+}
+li a {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 28px;
+ }
+li a:hover {
+  background-color: #111;
+}
+#inicio {
+  background-color: #4CAF50;
+
+}
+#inicio:hover{
+  background-color: #111;
+}
+#hombre {
+  display: none;
+
+  }
+ #mujer {
+  display: none;
+  }
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: silver;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+figure{
+	float: left;
+}
+figure img{
+	padding: 2px;
+	background: #999;
+	border-radius: 8px;
+	transition: transform 0.3s ease-in-out 0.1s;
+	box-shadow: #999 5px 5px 10px;
+	height: 250px;
+  width: 200px;
+}
+figure img:hover{
+	transform: scale(1.2);
+}
+
+#fuente2{
+  font:bold 40px 'fuente2';
+  color: #401461;
+  text-shadow: #68b3b3 3px 3px 10px;
+}
